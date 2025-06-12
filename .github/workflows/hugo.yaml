@@ -68,6 +68,8 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
+      - name: Add CNAME file
+        run: echo '21sys.de' > public/CNAME
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4

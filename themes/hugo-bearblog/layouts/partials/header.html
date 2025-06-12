@@ -1,0 +1,7 @@
+<a href="{{ "" | relURL }}" class="title">
+  <h2><img src="/images/21sys.png"> {{ .Site.Title }}</h2>
+</a>
+<p>{{ .Param "description" }}</p>
+
+<nav>{{- partial "nav.html" . -}}</nav>
+<hr>

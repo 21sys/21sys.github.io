@@ -1,0 +1,33 @@
+baseURL = 'https://21sys.de'
+languageCode = 'en-us'
+title = '21sys'
+theme = 'hugo-bearblog'
+enableRobotsTXT = true
+
+
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/topic/:slug"
+
+[markup]
+  [markup.highlight]
+    style = 'friendly'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
+
+[params]
+hideMadeWithLine = true
+# The "description" of your website. This is used in the meta data of your generated html.
+description = "A blog about using computer systems in the 21st century."
+favicon = "images/favicon.ico"
+images = ["images/share.png"]
+title = "21sys"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+

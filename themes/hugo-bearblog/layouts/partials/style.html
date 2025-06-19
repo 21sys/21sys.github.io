@@ -152,4 +152,12 @@
     color: var(--visited-color);
   }
 
+  /* Fixes iOS font sizing anomaly
+     viaL https://nathan.rs/posts/fixing-ios-codeblocks/ */
+  code {
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
 </style>

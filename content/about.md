@@ -10,7 +10,7 @@ title = 'About'
 
 # About this site
 
-This is my casual blog about sysadmin, dev, devops and poweruser topics. Linux, Windows, MacOS. Programming, config, cloud, AI and more.
+This is my casual blog about sysadmin, dev, devops and poweruser topics. Linux, Windows, MacOS. Programming, config, cloud, AI and more. Brought you from the [21st century](https://www.youtube.com/watch?v=aScP6QB3Nx8).
  
 **Find and post article comments on [our GitHub Discussions forum](https://github.com/21sys/21sys.github.io/discussions).**
 

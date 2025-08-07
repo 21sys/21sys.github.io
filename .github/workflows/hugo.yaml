@@ -68,8 +68,8 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache" \
-            --environment production
-            --cleanDestinationDir
+            --environment production \
+            --cleanDestinationDir \
             --ignoreCache
       - name: Add CNAME file
         run: echo '21sys.de' > public/CNAME

@@ -16,4 +16,9 @@ This is my casual blog about sysadmin, dev, devops and poweruser topics. Linux, 
 
 **We also have a [RSS Feed](/index.xml)**.
 
-For private feedback: `21systems(at)proton.me`.
+For private feedback use the form below. 
+
+{{< html >}}
+<br><br><script data-letterbirduser="21sys" data-width=640px src="https://letterbird.co/embed/v1.js"></script>
+{{< /html >}}
+
